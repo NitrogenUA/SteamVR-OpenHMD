@@ -1,5 +1,8 @@
 #!/bin/bash
 
+cd /tmp/dev
+
+git submodule update --init
 
 mkdir -p /tmp/dev/build
 
