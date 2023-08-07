@@ -23,6 +23,6 @@ ENV CC="ccache gcc" CXX="ccache g++ -std=c++11"
 
 ENV USER=testuser
 
-ADD start.sh /
+ADD docker/start.sh /
 
 CMD ["/start.sh"]
